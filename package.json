@@ -1,0 +1,30 @@
+{
+  "name": "jquerydom",
+  "version": "1.0.0",
+  "description": "A small module that combines jQuery with JSDom for building DOM objects easily on the server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poppiestar/jquerydom"
+  },
+  "keywords": [
+    "jquery",
+    "jsdom",
+    "node",
+    "testing",
+    "dom"
+  ],
+  "author": "Drew Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppiestar/jquerydom/issues"
+  },
+  "homepage": "https://github.com/poppiestar/jquerydom",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "jsdom": "^3.1.2"
+  }
+}
