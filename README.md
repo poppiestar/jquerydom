@@ -22,11 +22,11 @@ You can now use the $ variable as you would jQuery as usual.
 For example, if you wanted to add some HTML do the DOM you'd do this and it will work
 as expected:
 
-    $('<p class="test">This is a test</p>');
+    var output = $('<p class="test">This is a test</p>');
 
 You could conceivably do this in your test:
 
-    expect( $('p').hasClass('test') ).toBe(true);
+    expect( output.find('p').hasClass('test') ).toBe(true);
 
 Hopefully this is handy to someone else.
 
